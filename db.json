@@ -1,0 +1,184 @@
+{
+  "carros": [
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2020,
+      "renavam": "12345678901",
+      "chassi": "ABC123DEF456",
+      "placa": "XYZ1234",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2019,
+      "renavam": "98765432109",
+      "chassi": "DEF456ABC123",
+      "placa": "ABC5678"
+    },
+    {
+      "id": 3,
+      "marca": "Ford",
+      "modelo": "Fiesta",
+      "ano": 2018,
+      "renavam": "45678901234",
+      "chassi": "GHI789JKL012",
+      "placa": "JKL9012"
+    },
+    {
+      "id": 4,
+      "marca": "Chevrolet",
+      "modelo": "Onix",
+      "ano": 2021,
+      "renavam": "34567890123",
+      "chassi": "MNO456PQR789",
+      "placa": "PQR3456"
+    },
+    {
+      "id": 5,
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "ano": 2017,
+      "renavam": "23456789012",
+      "chassi": "STU789VWX012",
+      "placa": "VWX7890"
+    },
+    {
+      "id": 6,
+      "marca": "Nissan",
+      "modelo": "Altima",
+      "ano": 2016,
+      "renavam": "12309876543",
+      "chassi": "YZA456BCD789",
+      "placa": "BCD0123"
+    },
+    {
+      "id": 7,
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "ano": 2022,
+      "renavam": "89012345678",
+      "chassi": "EFG789HIJ012",
+      "placa": "HIJ4567"
+    },
+    {
+      "id": 8,
+      "marca": "Mazda",
+      "modelo": "Mazda3",
+      "ano": 2015,
+      "renavam": "45678901234",
+      "chassi": "KLM901NOP234",
+      "placa": "NOP5678"
+    },
+    {
+      "id": 9,
+      "marca": "Kia",
+      "modelo": "Sorento",
+      "ano": 2014,
+      "renavam": "56789012345",
+      "chassi": "PQR901STU234",
+      "placa": "STU7890"
+    },
+    {
+      "id": 10,
+      "marca": "Subaru",
+      "modelo": "Outback",
+      "ano": 2023,
+      "renavam": "67890123456",
+      "chassi": "UVW012XYZ345",
+      "placa": "XYZ2345"
+    },
+    {
+      "id": 11,
+      "marca": "Mercedes-Benz",
+      "modelo": "C-Class",
+      "ano": 2020,
+      "renavam": "78901234567",
+      "chassi": "BCD345EFG678",
+      "placa": "EFG4567"
+    },
+    {
+      "id": 12,
+      "marca": "Audi",
+      "modelo": "A4",
+      "ano": 2019,
+      "renavam": "89012345678",
+      "chassi": "HIJ567KLM890",
+      "placa": "KLM7890"
+    },
+    {
+      "id": 13,
+      "marca": "BMW",
+      "modelo": "3 Series",
+      "ano": 2018,
+      "renavam": "90123456789",
+      "chassi": "NOP678PQR901",
+      "placa": "PQR9012"
+    },
+    {
+      "id": 14,
+      "marca": "Tesla",
+      "modelo": "Model 3",
+      "ano": 2021,
+      "renavam": "01234567890",
+      "chassi": "STU789UVW012",
+      "placa": "UVW1234"
+    },
+    {
+      "id": 15,
+      "marca": "Ferrari",
+      "modelo": "488 GTB",
+      "ano": 2017,
+      "renavam": "12345678901",
+      "chassi": "XYZ234ABC567",
+      "placa": "ABC6789"
+    },
+    {
+      "id": 16,
+      "marca": "Porsche",
+      "modelo": "911",
+      "ano": 2016,
+      "renavam": "23456789012",
+      "chassi": "DEF567GHI890",
+      "placa": "GHI7890"
+    },
+    {
+      "id": 17,
+      "marca": "Lamborghini",
+      "modelo": "Huracán",
+      "ano": 2022,
+      "renavam": "34567890123",
+      "chassi": "JKL678MNO901",
+      "placa": "MNO9012"
+    },
+    {
+      "id": 18,
+      "marca": "Bugatti",
+      "modelo": "Chiron",
+      "ano": 2015,
+      "renavam": "45678901234",
+      "chassi": "PQR789STU012",
+      "placa": "STU1234"
+    },
+    {
+      "id": 19,
+      "marca": "McLaren",
+      "modelo": "720S",
+      "ano": 2014,
+      "renavam": "56789012345",
+      "chassi": "UVW890XYZ123",
+      "placa": "XYZ3456"
+    },
+    {
+      "id": 20,
+      "marca": "Rolls-Royce",
+      "modelo": "Phantom",
+      "ano": 2023,
+      "renavam": "67890123456",
+      "chassi": "ABC901DEF234",
+      "placa": "DEF4567"
+    }
+  ]
+}
