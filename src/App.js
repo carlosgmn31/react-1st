@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import CarroList from './components/CarroList';
+import CarroForm from './components/CarroForm';
+import Carro from './components/Carro';
+import './styles.css';
+import CarroEdit from './components/CarroEdit';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <header>
+          <h1>Gestão de Frostas</h1>
+        </header>
+        
+
+        <nav>
+          <NavLink to="/" activeClassName="active">Home</NavLink>
+          <NavLink to="/adicionar" activeClassName="active">Adicionar Carro</NavLink>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<CarroList />} />
+          <Route path="/adicionar" element={<CarroForm />} />
+          <Route path="/carro/:id" element={<Carro />} />
+          <Route path="/carros/edit/:id" element={<CarroEdit  />} />
+        </Routes>
+        
+      </div>
+      
+    </Router>
+    
   );
-}
+};
 
 export default App;
